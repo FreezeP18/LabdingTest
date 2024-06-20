@@ -1,0 +1,46 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/Content/estilos.css" rel="stylesheet" />
+    <title>Clientes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <div id="menu" class="">
+        @Html.ActionLink("Inicio", "Inicio", "Asesoria")
+        @Html.ActionLink("Clientes", "Clientes", "Asesoria")
+        @Html.ActionLink("Contacto", "Contactos", "Asesoria")
+    </div>
+
+
+    <div class="Mosaico">
+        <p class="clientes">Algunos de nuestros clientes son:</p>
+        <br />
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="~/Content/img/coca-cola-popular-drink-brand-logo-vinnytsia-ukraine-may-16-202-free-vector.jpg" alt="Coca Cola" />
+                <p>Coca Cola</p>
+            </div>
+            <div class="grid-item">
+                <img src="~/Content/img/31b6ad5c-b404-4086-a685-89b1d5294f1c-cover.png" alt="Microsoft" />
+                <p>Microsoft</p>
+            </div>
+            <div class="grid-item">
+                <img src="~/Content/img/descarga.png" alt="Wallmart" />
+                <p>Wallmart</p>
+            </div>
+            <div class="grid-item">
+                <img src="~/Content/img/toyota-brand-logo-car-symbol-with-name-black-design-japan-automobile-illustration-free-vector.jpg" alt="Toyota" />
+                <p>Toyota</p>
+            </div>
+        </div>
+        </div>
+</body>
+</html>
